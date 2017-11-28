@@ -27,20 +27,46 @@ structure of the code.
 I have not read the solution so I plan to figure it out myself.
 
 ### The Research
-First, I am going to try to solve the problem without looking up anything.
-Without optimizing anything, a solution would be
+##### Fizzbuzz
+First, I am going to try to solve the problem independently.
+With no optimization, one solution would be
 ```
-For I in range 100:
+For I = 0 to 100:
 	If (I is divisible by 3 or 5):
 		If (I is divisible by 3 and 5):
-			Print fizzbuzz
+			Print "fizzbuzz"
 		Else if (I is divisible by 3):
-			Print fizz
+			Print "fizz"
 		Else: //It is divisible by 5
-			Print buzz
+			Print "buzz"
 	Else: //Not divisible by 3 or 5
-		Print buzz
+		Print I
 ```
+Thinking it over, the following will also work and may be more intuitive.
+```
+For I = 0 to 100:
+	If (I is divisible by 3 and 5):
+		Print "fizzbuzz"
+	Else if (I is divisible by 3):
+		Print "fizz"
+	Else if (I is divisible by 5):
+		Print "buzz"
+	Else:
+		Print I
+```
+Comparing the two, I prefer the latter. Although the former is technically more efficient, since 'I' will usually 
+not be divisibly by 3 nor 5, allowing us to skip most of the IF statements, the latter is more intuitive.
 
-I have just begun my research of assembly relating to how I can write it, compile it, and run it. I will put my
-research in this document. I plan to not read the optimal solution of fizzbuzz and see for myself how it goes.
+##### Assembly Language
+I have never written in assembly, so everything is new to me. I will need to learn how to write it, compile it, and
+run it. I will put my research in this document.
+
+For this problem, other than the syntax of assembly, I will need to know:
+```
+ - How to print text to the console
+ - How to do If/else if/else statements
+ - How to do mathematical analysis (Ie. division)
+```
+Obviously, these are all pretty basic concepts so this should be fairly simple.
+
+I have just begun my research of assembly relating to how I can write it, compile it, and run it. 
