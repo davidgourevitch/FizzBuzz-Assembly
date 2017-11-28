@@ -2,8 +2,7 @@
 
 My implementation of "fizzbuzz" using assembly-language. This is my first time using assembly.
 
-### The Story
-
+## The Story
 Yesterday, a friend came to me and asked "Do you 'fizzbuzz'?"
 I replied, aghast, "Well, of course I fizzbuzz. I consider myself a computer scientist!"
 They responded "No, but... *have* you fizzbuzzed?"
@@ -14,8 +13,7 @@ I came to the conclusion: I must fizzbuzz.
 I proclaimed this to my friend "I *will* fizzbuzz. And, I won't just fizzbuzz; I'll fizzbuzz... in assembly!"
 And thus, my journey began.
 
-### The Problem
-
+## The Problem
 "Fizzbuzz" is a seemingly simple problem; iterate through the numbers 1-100 but, if the number you would print is
 a multiple of 3, print "fizz" if it is a multiple of 5, print "buzz". If it is a multiple of both (15) print
 "fizzbuzz" instead of the number.
@@ -26,7 +24,7 @@ structure of the code.
 
 I have not read the solution so I plan to figure it out myself.
 
-### The Research
+## The Research
 #### Fizzbuzz
 First, I am going to try to solve the problem independently.
 With no optimization, one solution would be
