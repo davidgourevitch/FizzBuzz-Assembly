@@ -27,10 +27,20 @@ structure of the code.
 I have not read the solution so I plan to figure it out myself.
 
 ### The Research
+First, I am going to try to solve the problem without looking up anything.
+Without optimizing anything, a solution would be
+```
+For I in range 100:
+	If (I is divisible by 3 or 5):
+		If (I is divisible by 3 and 5):
+			Print fizzbuzz
+		Else if (I is divisible by 3):
+			Print fizz
+		Else: //It is divisible by 5
+			Print buzz
+	Else: //Not divisible by 3 or 5
+		Print buzz
+```
+
 I have just begun my research of assembly relating to how I can write it, compile it, and run it. I will put my
 research in this document. I plan to not read the optimal solution of fizzbuzz and see for myself how it goes.
-
-
-```
-An example of an example
-```
