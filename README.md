@@ -27,7 +27,7 @@ structure of the code.
 I have not read the solution so I plan to figure it out myself.
 
 ### The Research
-##### Fizzbuzz
+#### Fizzbuzz
 First, I am going to try to solve the problem independently.
 With no optimization, one solution would be
 ```
@@ -57,7 +57,7 @@ For I = 0 to 100:
 Comparing the two, I prefer the latter. Although the former is technically more efficient, since 'I' will usually 
 not be divisibly by 3 nor 5, allowing us to skip most of the IF statements, the latter is more intuitive.
 
-##### Assembly Language
+#### Assembly Language
 I have never written in assembly, so everything is new to me. I will need to learn how to write it, compile it, and
 run it. I will put my research in this document.
 
