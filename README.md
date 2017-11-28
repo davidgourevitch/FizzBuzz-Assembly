@@ -63,6 +63,13 @@ For this problem, other than the syntax of assembly, I will need to know:
  * How to print text to the console
  * How to do If/else if/else statements
  * How to do mathematical analysis (Ie. division)
+
 Obviously, these are all pretty basic concepts so this should be fairly simple.
 
-I have just begun my research of assembly relating to how I can write it, compile it, and run it. 
+## Credits
+#### Author
+ * David Gourevitch
+#### References
+ * [TutorialsPoint] (https://www.tutorialspoint.com/assembly_programming/)
+ 
+##
