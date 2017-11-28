@@ -70,6 +70,6 @@ Obviously, these are all pretty basic concepts so this should be fairly simple.
 #### Author
  * David Gourevitch
 #### References
- * [TutorialsPoint] (https://www.tutorialspoint.com/assembly_programming/)
+ * [TutorialsPoint](https://www.tutorialspoint.com/assembly_programming/)
  
 ##
